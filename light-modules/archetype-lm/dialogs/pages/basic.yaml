@@ -11,5 +11,6 @@ form:
       rows: 5
       i18n: true
     featuredImage:
+      label: Featured Image
       $type: damLinkField
       textInputAllowed: true
