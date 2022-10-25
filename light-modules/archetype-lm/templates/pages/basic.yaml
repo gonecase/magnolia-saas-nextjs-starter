@@ -11,3 +11,5 @@ areas:
     availableComponents:
       Image:
         id: archetype-lm:components/image
+      Hero:
+        id: archetype-lm:components/hero
