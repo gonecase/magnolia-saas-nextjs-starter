@@ -1,12 +1,6 @@
 label: Image
 form:
   properties:
-    backgroundImage:
-      label: Background Image
-      $type: linkField
-      chooser:
-        workbenchChooser:
-          appName: dam-chooser
     image:
       label: Image
       $type: linkField
@@ -18,8 +12,8 @@ form:
       $type: textField
       required: true
       i18n: true
-    preHeading:
-      label: Caption
+    heading:
+      label: Heading
       $type: textField
     description:
       label: Description
