@@ -13,3 +13,5 @@ areas:
         id: archetype-lm:components/image
       Hero:
         id: archetype-lm:components/hero
+      ImageText:
+        id: archetype-lm:components/imagetext
