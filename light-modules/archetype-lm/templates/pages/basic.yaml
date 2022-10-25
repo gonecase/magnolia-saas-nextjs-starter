@@ -1,6 +1,6 @@
 title: "Basic Page"
 dialog: archetype-lm:pages/basic
-baseUrl: https://dotfusion-2022.vercel.app
+baseUrl: http://localhost:3000
 routeTemplate: "{{@path}}"
 renderType: spa
 class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
