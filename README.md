@@ -1,4 +1,4 @@
-![Dotfusion Logo](https://dotfusion.com/static/media/logo-onwhite.432b58af.svg)
+![Dotfusion Logo](https://dotfusion.azurewebsites.net/static/media/logo-onwhite.432b58af.svg)
 
 # Magnolia SAAS / NextJS starter
 
