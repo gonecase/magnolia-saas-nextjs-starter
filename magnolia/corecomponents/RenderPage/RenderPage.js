@@ -1,3 +1,6 @@
+// MOST OF THE IFRAME MESSAGING CODE AND THE REGEX IS TAKEN FROM THE MAIN MAGNOLIA REPO
+// AT SOME POINT OF TIME THIS NEEDS TO BE LOOKED AT BY MAGNOLIA TO MAKE THINGS ACTUALLY NEATER
+
 import { EditablePage } from "@magnolia/react-editor";
 import { useEffect, useState } from "react";
 import { getPage, getTemplate } from "./../../index.js";
