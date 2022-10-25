@@ -1,8 +1,8 @@
 !content-type:clients
 name: clients-app
-label: Client List
+label: Sample app
 
 #Optionally override any of the app configuration supplied by the content type.
 subApps:
   detail:
-    label: Client
+    label: Sample app
