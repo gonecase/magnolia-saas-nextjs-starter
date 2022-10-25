@@ -1,0 +1,21 @@
+datasource:
+  workspace: clients
+  autoCreate: true
+model:
+  nodeType: clients
+  properties:
+    name:
+      label: Name
+      i18n: true
+      required: true
+    description:
+      type: richText
+      label: Description
+      i18n: true
+      required: false
+    logoColor:
+      label: Client Logo
+      type: asset
+    logoWhite:
+      label: White Logo
+      type: asset

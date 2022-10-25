@@ -1,0 +1,9 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: settings
+depth: 10
+limit: 1000
+bypassWorkspaceAcls: true
+includeSystemProperties: true
+nodeTypes:
+  - mgnl:content
+  - settings

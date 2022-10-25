@@ -1,0 +1,39 @@
+label: Image
+form:
+  properties:
+    backgroundImage:
+      label: Background Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+    image:
+      label: Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+    imageCaption:
+      label: Caption
+      $type: textField
+      required: true
+      i18n: true
+    preHeading:
+      label: Caption
+      $type: textField
+    description:
+      label: Description
+      $type: richTextField
+    switchOrientationOnDesktop:
+      label: Desktop Orientation
+      $type: comboBoxField
+      defaultValue: left
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: right
+            label: right
+            value: right
+          - name: left
+            label: left
+            value: left

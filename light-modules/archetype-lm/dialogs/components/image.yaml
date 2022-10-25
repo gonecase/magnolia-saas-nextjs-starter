@@ -1,0 +1,31 @@
+label: Image
+form:
+  properties:
+    image:
+      label: Image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+    fullWidth:
+      $type: checkBoxField
+      label: Full Width
+      buttonLabel: Select to have this image stretch to the container width
+    imageCaption:
+      label: Caption
+      $type: textField
+      required: true
+      i18n: true
+    showCaption:
+      label: Show Caption
+      $type: comboBoxField
+      defaultValue: no
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: yes
+            label: Yes
+            value: yes
+          - name: no
+            label: No
+            value: no

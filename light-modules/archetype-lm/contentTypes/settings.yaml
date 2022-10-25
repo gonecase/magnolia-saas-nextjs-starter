@@ -1,0 +1,12 @@
+datasource:
+  workspace: settings
+  autoCreate: true
+model:
+  nodeType: settings
+  properties:
+    settingname:
+      label: Setting Name
+      required: true
+    value:
+      label: Value
+      required: true

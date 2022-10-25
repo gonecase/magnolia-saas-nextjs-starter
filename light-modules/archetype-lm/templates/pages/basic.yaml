@@ -1,0 +1,13 @@
+title: "Basic Page"
+dialog: archetype-lm:pages/basic
+baseUrl: https://dotfusion-2022.vercel.app
+routeTemplate: "{{@path}}"
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+areas:
+  main:
+    title: Main Area
+    availableComponents:
+      Image:
+        id: archetype-lm:components/image
